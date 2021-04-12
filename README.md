@@ -34,5 +34,5 @@ Ultimaker Cura 4.8.0
 
 # Preview
 ![assembly1.png](assembly1.png "assembly1.png")
-![assembly2.png](assembly1.png "assembly2.png")
-![assembly3.png](assembly1.png "assembly3.png")
+![assembly2.png](assembly2.png "assembly2.png")
+![assembly3.png](assembly3.png "assembly3.png")
