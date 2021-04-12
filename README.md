@@ -6,9 +6,11 @@ I purchase two of these rails w/ MGN12H carriages: https://smile.amazon.com/gp/p
 
 Front belt tensioner spacer is going to require an long M5 screw, probably 30-35mm.
 
+
+
 # License
 
-Creative Commons - Attribution - Non-Commercial
+[Creative Commons - Attribution - Non-Commercial (CC BY-NC 3.0)](https://creativecommons.org/licenses/by-nc/3.0/)
 
 # Changelog
 
