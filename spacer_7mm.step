@@ -11,8 +11,8 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 
 '//10.10.10.90/3DPrinting/git projects/3dprint_cr6_yaxislinearrail/spa
-cer.step',
-/* time_stamp */ '2021-04-09T21:42:25-05:00',
+cer_7mm.step',
+/* time_stamp */ '2021-04-13T11:23:38-05:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -230,15 +230,15 @@ SOLID_ANGLE_UNIT()
 #176=PRODUCT_DEFINITION_SHAPE('',$,#179);
 #177=SHAPE_REPRESENTATION('',(#103),#169);
 #178=PRODUCT_DEFINITION_CONTEXT('part definition',#183,'design');
-#179=PRODUCT_DEFINITION('spacer','spacer v2',#180,#178);
+#179=PRODUCT_DEFINITION('spacer','spacer v3',#180,#178);
 #180=PRODUCT_DEFINITION_FORMATION('',$,#185);
-#181=PRODUCT_RELATED_PRODUCT_CATEGORY('spacer v2','spacer v2',(#185));
+#181=PRODUCT_RELATED_PRODUCT_CATEGORY('spacer v3','spacer v3',(#185));
 #182=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#183);
 #183=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #184=PRODUCT_CONTEXT('part definition',#183,'mechanical');
-#185=PRODUCT('spacer','spacer v2',$,(#184));
+#185=PRODUCT('spacer','spacer v3',$,(#184));
 #186=PRESENTATION_STYLE_ASSIGNMENT((#187));
 #187=SURFACE_STYLE_USAGE(.BOTH.,#188);
 #188=SURFACE_SIDE_STYLE('',(#189));
