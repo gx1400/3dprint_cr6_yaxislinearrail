@@ -7,7 +7,7 @@ THIS PROJECT IS UNDER DEVELOPMENT
 This conversion method DOES require you to replace the Y-axis belt, but unlike some other 
 
 Required Supplies:
-- 2x 350mm long MGN rail with MGN12H carriage.  [I bought this](https://smile.amazon.com/gp/product/B07SPQZ383/) because it was cheap and fast, I would recomment Hiwin.
+- 2x 350mm long MGN rail with MGN12H carriage.  [I bought this](https://smile.amazon.com/gp/product/B07SPQZ383/) because it was cheap and fast, I would recommend Hiwin.
 - [GT2 timing belt](https://smile.amazon.com/gp/product/B07ZNNR238/) (this solution requires longer belt. will have to crimp yourself as well).
 - 2x M5x30 mm button head or socket head screws (attach spacer to tensioner)
 - 4x M5x10 mm button head or socket head screws (attach build plate carriage to brackets)
@@ -15,6 +15,8 @@ Required Supplies:
 - 20x M3x8mm button head or socket head screws (attach rails to extrusion & bracket to tensioner)
 - (optional) M3 nuts (for slide-in t-nuts if you choose to print your own, see notes.  Press in with pliers)
 - (optional) [Alignment blocks for linear rail to 2020 extrusion](https://www.thingiverse.com/thing:2804412)
+
+[Thingiverse Thing link](https://www.thingiverse.com/thing:4828178)
 
 # Printed parts
 
