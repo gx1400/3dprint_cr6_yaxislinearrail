@@ -141,7 +141,7 @@ Ultimaker Cura 4.8.0
 # T-nuts (optional)
 ![T-nut ready for pressing](pics/tnuts1.jpg "T nut ready for pressing")
 ![T-nut press in more](pics/tnuts2.jpg "T-nut press in more")
-![T-nut and spacer](pics/tnut3.jpg) "T-nut and spacer")
+![T-nut and spacer](pics/tnuts3.jpg) "T-nut and spacer")
 
 # Adapter
 ![Adapter front ortho view](pics/adapter1.jpg "Adapter front ortho view")
