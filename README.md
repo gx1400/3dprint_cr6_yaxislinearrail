@@ -4,7 +4,7 @@
 
 THIS PROJECT IS UNDER DEVELOPMENT
 
-This conversion method DOES require you to replace the Y-axis belt, but unlike some other 
+This conversion method DOES require you to replace the Y-axis belt, but unlike some other projects doesn't require you to cut the rail.
 
 Required Supplies:
 - 2x 350mm long MGN rail with MGN12H carriage.  [I bought this](https://smile.amazon.com/gp/product/B07SPQZ383/) because it was cheap and fast, I would recommend Hiwin.
