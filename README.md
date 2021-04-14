@@ -2,10 +2,91 @@
 
 THIS PROJECT IS UNDER DEVELOPMENT
 
-I purchase two of these rails w/ MGN12H carriages: https://smile.amazon.com/gp/product/B07SPQZ383
+This conversion method DOES require you to replace the Y-axis belt, but unlike some other 
 
-Front belt tensioner spacer is going to require an long M5 screw, probably 30-35mm.
+Required Supplies:
+- 2x 350mm long MGN rail with MGN12H carriage.  [I bought this](https://smile.amazon.com/gp/product/B07SPQZ383/) because it was cheap and fast, I would recomment Hiwin.
+- [GT2 timing belt](https://smile.amazon.com/gp/product/B07ZNNR238/) (this solution requires longer belt. will have to crimp yourself as well).
+- 2x M5x30 mm button head or socket head screws (attach spacer to tensioner)
+- 4x M5x10 mm button head or socket head screws (attach build plate carriage to brackets)
+- 4x M5 nut or nylock nut (I used nylock nut, press into left and right brackets with pliers)
+- 20x M3x8mm button head or socket head screws (attach rails to extrusion & bracket to tensioner)
+- (optional) M3 nuts (for slide-in t-nuts if you choose to print your own, see notes.  Press in with pliers)
+- (optional) [Alignment blocks for linear rail to 2020 extrusion](https://www.thingiverse.com/thing:2804412)
 
+# Printed parts
+
+## 'plate bracket left.stl'
+
+This part mounts to the left side carriage and interfaces with the build plate carriage.  Need to press in M5 nuts or nylock nuts.
+
+Suggested printing:
+- 0.2mm layer
+- 50% infill, Gyroid
+- 4 walls
+- Top touching build plate.  No supports.
+
+## 'plate bracket right.stl'
+
+This part mounts to the right side carriage and interfaces with the build plate carriage.  Need to press in M5 nuts or nylock nuts.  This part interfaces with the y-axis end stop/homing switch.
+
+Suggested printing:
+- 0.2mm layer
+- 50% infill, Gyroid
+- 4 walls
+- Top touching build plate.  No supports.
+
+## 'spacer_5mm.stl'
+
+This part provides proper spacing to make sure the left side M5x10 screws do not bottom out on the linear rail when tightened to connect carriage to bracket
+
+Suggested printing:
+- 0.12mm layer
+- 100% infill
+- 4 walls (should be pretty much all walls...)
+- No supports
+
+## 'spacer_7mm.stl'
+
+This part provides proper spacing to make sure the right side M5x10 screws do not bottom out on the linear rail when tightened to connect carriage to bracket.  In addition, since these holes are larger to accomodate the eccentric hex spacer on stock install.  This centers the screw to help remove slop.
+
+Suggested printing:
+- 0.12mm layer
+- 100% infill
+- 4 walls (should be pretty much all walls...)
+- Top touching build plate.  No supports.
+
+## Tensioner adapter
+
+Since the linear rails are readily available in lengths of 300 and 350 mm, but 300mm is too short and 350 is too long; this adapter allows you to mount 350 mm rail without cutting the rail.  This part will also double as an end-stop for the front piecepart.
+
+Suggested printing:
+- 0.2mm layer
+- 10-20% infill, Gyroid
+- 3 walls
+- Front side touching build plate.  Enable Supports (should just be the end stop sides that jut out, may not even be needed)
+
+## OPTIONAL: 'rail nut m3-2x.stl'
+
+See notes.  I used these to slide into extrusion.  I had to make them very thin to fit into the OpenBuilds extrusion I was experimenting with at my desk, turns out when I went to Creality extrusion, there are significantly different extrusion dimensions.  I ended up getting some plastic deformation when torquing down.  I'm buying metal T-nuts.
+
+I prefer the double nut version over the single nut version below.  Your choice.
+
+M3 nuts can be pressed in with pliers
+
+Suggested printing:
+- 0.12mm layer
+- 100% infill
+- 3 walls (should be pretty much all walls...)
+- Top touching build plate.  No supports.
+
+## OPTIONAL: 'rail nut m3-1x.stl'
+
+See notes and text above in 'rail nut m3-2x.stl.
+
+# Notes
+
+- I used the printed t-nuts ('rail nut m3-2x.stl'), but found the plastic was pretty thin and gave under torque.  I'm ordering some metal slide in t-nuts from amazon ([This one](https://smile.amazon.com/gp/product/B075SY9Y96/) and [This one](https://smile.amazon.com/gp/product/B0841G5SB1/) to see how they fit.  I expect they will be more durable and secure.
 
 
 # License
@@ -14,6 +95,8 @@ Front belt tensioner spacer is going to require an long M5 screw, probably 30-35
 
 # Changelog
 
+2021/04/15 - Update readme instructions
+2021/04/14 - Updated design files
 2021/04/11 - Initial commit
 
 
@@ -33,6 +116,6 @@ Ultimaker Cura 4.8.0
 - Print Temperature: 215 degrees C
 
 # Preview
-![assembly1.png](assembly1.png "assembly1.png")
-![assembly2.png](assembly2.png "assembly2.png")
-![assembly3.png](assembly3.png "assembly3.png")
+![assembly1.png](pics/assembly1.png "assembly1.png")
+![assembly2.png](pics/assembly2.png "assembly2.png")
+![assembly3.png](pics/assembly3.png "assembly3.png")
