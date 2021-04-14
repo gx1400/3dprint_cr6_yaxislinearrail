@@ -1,5 +1,7 @@
 # CR-6 SE Y-axis Linear rail and MGN12H carriage mount
 
+![assembly1.png](pics/assembly1.png "assembly1.png")
+
 THIS PROJECT IS UNDER DEVELOPMENT
 
 This conversion method DOES require you to replace the Y-axis belt, but unlike some other 
@@ -84,6 +86,16 @@ Suggested printing:
 
 See notes and text above in 'rail nut m3-2x.stl.
 
+## OPTIONAL: 'vrail spacer m3.stl'
+
+I used this to help keep the MGN rail out of the extrusion slot.  Probably not needed.
+
+Suggested printing:
+- 0.12mm layer
+- 100% infill
+- 3 walls 
+- Top touching build plate.  No supports.
+
 # Notes
 
 - I used the printed t-nuts ('rail nut m3-2x.stl'), but found the plastic was pretty thin and gave under torque.  I'm ordering some metal slide in t-nuts from amazon ([This one](https://smile.amazon.com/gp/product/B075SY9Y96/) and [This one](https://smile.amazon.com/gp/product/B0841G5SB1/) to see how they fit.  I expect they will be more durable and secure.
@@ -96,7 +108,9 @@ See notes and text above in 'rail nut m3-2x.stl.
 # Changelog
 
 2021/04/15 - Update readme instructions
+
 2021/04/14 - Updated design files
+
 2021/04/11 - Initial commit
 
 
@@ -115,7 +129,28 @@ Ultimaker Cura 4.8.0
 - Material: PLA+
 - Print Temperature: 215 degrees C
 
-# Preview
-![assembly1.png](pics/assembly1.png "assembly1.png")
-![assembly2.png](pics/assembly2.png "assembly2.png")
-![assembly3.png](pics/assembly3.png "assembly3.png")
+# Pics
+
+# Model Views
+
+![Ortho View](pics/assembly1.png "Ortho view")
+![Under View](pics/assembly2.png "Under view")
+![Back right view](pics/assembly3.png "Back right view")
+![Rear view](pics/assembly4.png "Rear view")
+
+# T-nuts (optional)
+![T-nut ready for pressing](pics/tnuts1.jpg "T nut ready for pressing")
+![T-nut press in more](pics/tnuts2.jpg "T-nut press in more")
+![T-nut and spacer](pics/tnut3.jpg) "T-nut and spacer")
+
+# Adapter
+![Adapter front ortho view](pics/adapter1.jpg "Adapter front ortho view")
+![Adapter topish view](pics/adapter2.jpg "Adapter topish view")
+
+# Linear rail
+![Left rail install](pics/leftrail.jpg "Left rail install")
+![Right rail limit switch placement](pics/limitswitch.jpg "right rail limit switch placement")
+![Rail alignment](pics/alignment.jpg "Rail alignment")
+
+
+
